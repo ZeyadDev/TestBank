@@ -1,0 +1,14 @@
+3)	TCP uses the following only for mux, demux purposes
+A)	Destination Port number
+B)	Destination IP and destination Port number
+C)	Source IP and destination IP
+D)	Destination IP & port and Source IP & port
+E)	Only IP source and destination and destination port
+Answer: D
+4)	 UDP is used because
+A)	It is has no connection delay
+B)	It has no congestion control
+C)	It has small header
+D)	Easy  no state maintenance 
+E)	All of the above
+Answer: E

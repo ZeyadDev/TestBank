@@ -1,0 +1,161 @@
+1)	Resource sharing is one of the advantage of computer networks. 				Answer: T  
+2)	The use of two wires twisted together helps to reduce crosstalk and electromagnetic 	induction. 
+   	Answer: T    
+3)	Insulation layer in coaxial cable helps minimize interference and distortion. 			Answer: T  
+4)	Fiber-optic cables are affected by electromagnetic radiation. 					Answer: F 
+5)	Coaxial cable transfer data much faster than fiber-optic cables. 				Answer: F 
+6)	Bluetooth cover a wide range of distance for data transfer. 					Answer: F  
+7)	Wi-Fi uses IEEE 802.11 protocol while Wi-Max uses IEEE 802.16 protocol. 			Answer: T  
+8)	Wi-Max covers wider range of distance than Wi-Fi but has smaller bit rate transfer. 			Answer: T   
+9)	Wired LANs are most likely to be based on Ethernet technology. 				Answer: T  
+10)	LAN connects computers in a wide geographically area. 					Answer: F  
+11)	WAN operates at slower rate than LAN, but covers wider geographical area. 			Answer: T  
+12)	The Internet is a network of networks. 							Answer: T  
+13)	A protocol is not considered as a network component. 					Answer: F  
+14)	In the Internet, hosts are connected together directly through one communication link. 		Answer: F  
+15)	Hosts form the core part of the Internet. 							Answer: F   
+16)	DSL, High speed LAN, and wireless access are examples for network access provided by 	ISP.   	
+	Answer:  T    
+17)	Skype is an example of client-server application. 						Answer: F   
+18)	File transfer uses peer-to-peer model. 							Answer: F     
+19)	UPD provides reliable data transfer. 							Answer: F   
+20)	TCP provides congestion control. 							Answer: T    
+21)	In circuit-switching, data is sent through the net in discrete chunks. 				Answer: F   
+22)	In circuit-switching, users share network resources. 						Answer: F    
+23)	In circuit switching, the bandwidth is divided into pieces using FDM or TDM.  			Answer: T    
+24)	In statistical multiplexing packets have a fixed pattern .  					Answer: F    
+25)	In packet switching, network resources are reserved for each user. 				Answer: F    
+26)	Packet switching allows more users to use network. 					Answer: T     
+27)	A protocol defines the format and the order of messages exchanged between hosts. 		Answer: T    
+28)	Modularization and standardization are advantages for network layer structure. 			Answer: T     
+29)	Queuing delay can vary from packet to packet. 						Answer: T    
+30)	A queue forms when the arrival rate of packets is less than the transmission rate. 		Answer: F      
+31)	Packet loss occurs when packets arrive to a full queue. 					Answer: T     
+32)	Network layer handles reliable data transfer. 						Answer: F    
+33)	Link layer divides data into segments. 							Answer: F    
+34)	Network layer determines the route and IP address of the destination. 				Answer: T   
+35)	 P2P architecture have always on servers. 						Answer: F   
+36)	In client-server architecture the server has a permanent IP address. 				Answer: T    
+37)	In client-server architecture clients communicate directly with each other. 			Answer: F    
+38)	P2P is highly scalable but difficult to manage. 						Answer: T     
+39)	Throughput cannot exceed network bandwidth.						Answer: T     
+
+1)	Two processes communicate with each other through their sockets. 	
+Answer:  T
+2)	A process is uniquely identified by the IP address. 				
+Answer:  F
+3)	ipconfig command is used to get computer’s IP address. 				
+Answer:  T
+4)	Audio and video applications are loss-tolerant. 					
+Answer:  T
+5)	File transfer and telnet require 100% reliable data transfer. 			
+Answer:  T
+6)	Multimedia applications are elastic applications. 				
+Answer:  F
+7)	Email and file transfer are bw sensitive applications. 				
+Answer:  F
+8)	UDP requires handshaking. 							
+Answer:  F
+9)	Most Internet applications use UDP.  						
+Answer:  F
+10)	HTTP is a stateless protocol. 							
+Answer:  T
+11)	HTML is the main object in the web page. 					
+Answer:  T
+12)	A web browser is the client-side in a web application. 				
+Answer:  T
+13)	HTTP use port 81 to communicate 						
+Answer:  F
+14)	Non-persistent HTTP transfer more than one object in a single TCP connection. 	
+Answer:  F
+15)	A Web cache can substantially reduce the response time for a client request. 	
+Answer:  T
+16)	Cookies preserve privacy. 							
+Answer:  F
+17)	FTP is in-band protocol. 								
+Answer:  F
+18)	FTP uses port 20 to transfer data. 						
+Answer:  T
+19)	SMTP is a pull protocol. 								
+Answer:  F
+20)	DNS uses centralized database to store mapping information. 			
+Answer:  F
+21)	Client-server can distribute file faster than P2P. 					
+Answer:  F
+22)	In bit torrent, a peer accumulates chunks of the file over time. 			
+Answer:  T
+23)	DHT is used to reduce time searching for information in a database. 		
+Answer:  T
+
+1)	Transport layer provide logical communication between processes running on different hosts. 
+Answer: T
+2)	The packets formed in the transport layer are called datagrams. 
+Answer: F
+3)	Transport layers protocols run within network core. 
+Answer: F
+4)	TCP transfers messages from transport layer to network layer and vise versa. 
+Answer: T
+5)	UDP provides congestion control service. 
+Answer: F
+6)	TCP provides delay guarantees. 
+Answer: F
+7)	UDP is a best effort protocol. 
+Answer: T
+8)	TCP segment has 8 byte header. 
+Answer: F
+9)	ACKs are used to detect bit errors in reliable data transfer. 
+Answer:  F
+10)	Sequence number is used to handle duplication in data transmission. 
+Answer: T
+11)	Timeout is used to confirm that data has been received correctly . 
+Answer: F
+12)	Stop and wait protocol limits the use of physical resources. 
+Answer: T
+13)	Pipeline protocols reduce network resources utilization. 
+Answer: F
+14)	In pipelining, sender sends multiple packets w/o waiting for ACK. 
+Answer: T
+15)	In selective repeat pipelining, receiver individually acknowledges all correctly received pkts . 
+Answer: T
+16)	In go-back-n pipelining, receiver buffers out-of-order packets. 
+Answer: F
+17)	Host A is sending a large file to host B over a TCP connection. If the sequent number for a segment of this connection is m, then the sequence number for the subsequent connection will necessarily be m+1. F it might be lost or the ACK lost 
+	Answer: T
+18)	The last SampleRTT in a TCP connection is equal to 1 sec. The current value of Timeout Interval for the connection will necessarily be greater than or equal 1 sec. 
+Answer: F
+19)	Host A sends one segment with sequence number 38 and 4 bytes of data over a TCP connection to Host B, in this segment the acknowledgment number is necessarily 42. 
+Answer: F
+20)	Duplicate acks retransmits slower than timeout. 
+Answer: F
+21)	Host A is sending a large file to Host B over TCP connection. The size number of unacked bytes that A sends to B cannot exceed the size of the receiver buffer. 
+Answer: T
+
+1)The transport layer has two protocols
+A)	IP & TCP
+B)	HTTP & TCP
+C)	TCP & UDP
+D)	HTTP & UDP
+E)	None of the above
+Answer: C
+2)	Which is not true about TCP
+A)	Best effort transfer
+B)	Flow control 
+C)	Congestion control
+D)	Connection oriented
+E)	None of the above
+Answer: A
+
+3)	TCP uses the following only for mux, demux purposes
+A)	Destination Port number
+B)	Destination IP and destination Port number
+C)	Source IP and destination IP
+D)	Destination IP & port and Source IP & port
+E)	Only IP source and destination and destination port
+Answer: D
+4)	 UDP is used because
+A)	It is has no connection delay
+B)	It has no congestion control
+C)	It has small header
+D)	Easy  no state maintenance 
+E)	All of the above
+Answer: E

@@ -1,0 +1,13 @@
+ 2)	 UDP is used because
+
+    A)	It has small header
+    B)	All of the above
+    C)	Easy  no state maintenance 
+    D)	It is has no connection delay
+    E)	It has no congestion control
+
+    Answer: e
+
+    WRONG! 
+    The correct answer is B 
+
